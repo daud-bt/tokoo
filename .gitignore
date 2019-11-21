@@ -1,3 +1,7 @@
 
+<<<<<<< HEAD
+=======
+.vs/config/applicationhost.config
+>>>>>>> 5ecdaa121d3f69b14afe34aef064d05d6edf2588
 project/App_Data/project.mdf
 project/App_Data/project_log.ldf
