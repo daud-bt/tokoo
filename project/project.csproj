@@ -74,7 +74,11 @@
     <Content Include="footer.ascx" />
     <Content Include="header.ascx" />
     <Content Include="home.aspx" />
+<<<<<<< HEAD
     <Content Include="register.aspx" />
+=======
+    <Content Include="login.aspx" />
+>>>>>>> 949caffc49cc4b03581d32d133a42286a733d170
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +102,13 @@
     </Compile>
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="register.aspx.cs">
